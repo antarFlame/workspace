@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="On explicit save action" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="umitest" notifyRemoteChanges="true">
+    <serverData>
+      <paths name="umitest">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/installed" />
+            <excludedPath path="/usels" />
+            <excludedPath path="/install.log" />
+            <excludedPath path="/static_banner.php" />
+            <excludedPath path="/errors" />
+            <excludedPath path="/files" />
+            <excludedPath path="/tinyurl.php" />
+            <excludedPath path="/captcha.php" />
+            <excludedPath path="/xsl" />
+            <excludedPath path="/standalone.php" />
+            <excludedPath path="/session.php" />
+            <excludedPath path="/install.php" />
+            <excludedPath path="/favicon.ico" />
+            <excludedPath path="/composer.umi.json" />
+            <excludedPath path="/classes" />
+            <excludedPath path="/.htaccess_old" />
+            <excludedPath path="/autothumbs.php" />
+            <excludedPath path="/cgi-bin" />
+            <excludedPath path="/releaseStreams.php" />
+            <excludedPath path="/umaps" />
+            <excludedPath path="/smt" />
+            <excludedPath path="/cron.php" />
+            <excludedPath path="/man" />
+            <excludedPath path="/index.php" />
+            <excludedPath path="/index.html" />
+            <excludedPath path="/composer.umi.lock" />
+            <excludedPath path="/sbots.php" />
+            <excludedPath path="/counter.php" />
+            <excludedPath path="/xsltTpls" />
+            <excludedPath path="/libs" />
+            <excludedPath path="/go-out.php" />
+            <excludedPath path="/test.php" />
+            <excludedPath path="/installer.php" />
+            <excludedPath path="/config.ini" />
+            <excludedPath path="/sys-temp" />
+            <excludedPath path="/smu" />
+            <excludedPath path="/__install.php" />
+            <excludedPath path="/sitemap.php" />
+            <excludedPath path="/styles" />
+            <excludedPath path="/js" />
+            <excludedPath path="/images" />
+            <excludedPath path="/umi.nginx.conf" />
+            <excludedPath path="/.htaccess" />
+            <excludedPath path="/tpls" />
+            <excludedPath path="/templates/demodizzy/js" />
+            <excludedPath path="/templates/demodizzy/classes" />
+            <excludedPath path="/templates/demodizzy/css" />
+            <excludedPath path="/templates/demodizzy/images" />
+            <excludedPath path="/templates/demodizzy/tpls" />
+            <excludedPath path="/templates/demodizzy/usels" />
+            <excludedPath path="/templates/demodizzy/xslt" />
+            <excludedPath path="/templates/demodizzy/install.php" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+  </component>
+</project>
