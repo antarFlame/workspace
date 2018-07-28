@@ -4,12 +4,12 @@
     <div class="title"><h2><?=$this->translate('vote')?></h2></div>
     <div class="body">
         <div class="in">
-            <div class="vote_text">
+            <div class="vote_text" umi:element-id="<?= $variables['id'] ?>" umi:region="row" umi:field-name="question">
                 <?=$variables['text']?>
             </div>
             <?php if (isset($variables['items']['nodes:item'][0]['attribute:id'])): ?>
                 <form id="postForm_<?=$variables['id']?>" onsubmit="site.forms.vote(this, <?=$variables['id']?>); return false;">
-                    <ul class="vote">
+                    <ul class="vote" umi:element-id="<?= $variables['id'] ?>" umi:region="list" umi:field-name="answers">
                         <?php foreach ($variables['items']['nodes:item'] as $k => $voteItem): ?>
                             <li>
                                 <label for="item_<?=$k?>">

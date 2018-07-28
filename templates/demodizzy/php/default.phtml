@@ -93,8 +93,8 @@ if ($siteInfo instanceof umiHierarchyElement) {
 			</div>
 		</div>
 		<?=$this->render($this->macros('emarket', 'cart'), 'emarket/basket')?>
-		<div class="callback_form">
-			<h2><a href="#callback_form">Заказать звонок</a></h2>
+		<div class="callback_form" umi:element-id="<?= $this->getPageByPath('contacts')->getId() ?>">
+			<h2><a href="#callback_form">Заказать звонок!</a></h2>
 		</div>
 	</div>
 	<?=$this->render($this->macros('content', 'menu', array(null, 1)), 'content/menu/top') ?>
